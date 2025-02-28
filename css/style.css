@@ -14,7 +14,7 @@ body{
 .navbar{
     width: 100%;
     padding: 20px 10px;
-    background-color: rgba(255,255, 255, 0.99);
+    background-color: rgba(255,255, 255, 0.97);
     display: flex;
     justify-content: center;
     position: fixed;
@@ -101,11 +101,19 @@ body{
     background-color: #fff;
     padding-top: 3px;
     display: none;
+    border-radius: 10px;
 }
 .navbar .navbar-nav .language:hover .submenu{
     display: block;
 }
+.navbar .navbar-nav .kirish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .navbar .navbar-nav .kirish .btn{
+    display: flex;
+    align-items: center;
     border: 2px solid #3F9CFB;
     padding: 12px 25px;
     border-radius: 10px;
@@ -233,7 +241,7 @@ body{
     justify-content: center;
 }
 .blok2-section .wrapper{
-    width: 1320px;
+    width: 1200px;
     display: flex;
     justify-content: space-between;
 }
@@ -241,8 +249,8 @@ body{
     text-decoration: none;
 }
 .blok2-section .wrapper .content{
-    width: 640px;
-    padding: 70px 50px 50px 50px;
+    width: 580px;
+    padding: 70px 50px 50px 70px;
     border-radius: 20px;
     transition: all .5s ease;
 }
@@ -253,7 +261,7 @@ body{
     background-color: #091621;
 }
 .blok2-section .wrapper .content i{
-    font-size: 64px;
+    font-size: 68px;
     color: #fff;
 }
 .blok2-section .wrapper .content span{
@@ -305,7 +313,7 @@ body{
     margin-top: 100px;
 }
 .blok3-section .container{
-    width: 1320px;
+    width: 1200px;
     display: flex;
     justify-content: space-between;
     background-color: #143755;
