@@ -235,7 +235,7 @@ body{
     letter-spacing: 1px;
     color: rgb(43, 41, 41);
 }
-/* blok2-section */
+/* blok2-section Kasblar va kurslar*/
 .blok2-section{
     display: flex;
     justify-content: center;
@@ -373,4 +373,102 @@ body{
     margin-top: 70px;
     margin-left: -40px;
 
+}
+/* Kasblar section */
+.kasblar{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.kasblar-wrap{
+    width: 1320px;
+    display: flex;
+    justify-content: center;
+    background-color: #091621;
+    padding: 80px 0;
+    border-radius: 20px;
+}
+.kasblar .wrapper .title h1{
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+.kasblar .wrapper .title p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #888686;
+    margin-top: 20px;
+    text-align: center;
+}
+.kasblar .wrapper .menu{
+    display: flex;
+    gap: 22px;
+    margin-top: 40px;
+}
+.kasblar .wrapper .menu .btn{
+    border: 1px solid #3F9CFB;
+    font-size: 16px;
+    padding: 12px 25px;
+    background-color: #091621;
+    border-radius: 8px;
+    color: #3B91E9;
+    transition: all .5s ease;
+}
+.kasblar .wrapper .menu .btn:hover{
+    background-color: #3F9CFB;
+}
+.kasblar .wrapper .menu .btn:hover span{
+    color: #fff;
+}
+.kasblar .wrapper .container{
+    width: 100%;
+    display: grid;
+    gap: 25px;
+    margin-top: 35px;
+}
+.kasblar .wrapper .container .content-wrap{
+    width: 100%;
+    display: flex;
+    gap: 25px;
+}
+.kasblar .wrapper .container a{
+    text-decoration: none;
+}
+.kasblar .wrapper .container .content{
+    width: 370px;
+    height: 370px;
+    background-color: #0B2D4A;
+    border: 1px solid #003866;
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+}
+.kasblar .wrapper .container .content p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #6e6d6d;
+}
+.kasblar .wrapper .container .content h2{
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+.kasblar .wrapper .container .content span{
+    font-size: 16px;
+    color: #3F9CFB;
+    text-transform: uppercase;
+}
+.kasblar .wrapper .container .content .icon{
+    width: 100%;
+}
+.kasblar .wrapper .container .content img{
+    width: 170px;
+    height: 150px;
+    position: absolute;
+    right: 40px;
+    bottom: 50px;
+    border-radius: 20px;
 }
