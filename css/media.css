@@ -146,7 +146,7 @@
         margin-top: 90px;
     }
     .blok3-section .container{
-        width: 992px;
+        width: 1150px;
         display: flex;
         padding: 45px 75px;
     }
@@ -172,6 +172,89 @@
     .blok3-section .container .content2 .icon3{
         font-size: 115px;
     
+    }
+    /* Kasblar section */
+    .kasblar-wrap{
+        padding: 80px 0;
+        border-radius: 20px;
+    }
+    .kasblar .wrapper .title h1{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .kasblar .wrapper .title p{
+        font-size: 14px;
+        margin-top: 18px;
+    }
+    .kasblar .wrapper .menu{
+        display: flex;
+        margin-top: 35px;
+    }
+    .kasblar .wrapper .menu .btn{
+        border: 1px solid #3F9CFB;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .kasblar .wrapper .container{
+        width: 992px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .kasblar .wrapper .container .content{
+        width: 312px;
+        height: 315px;
+    }
+    .kasblar .wrapper .container .content p{
+        font-size: 15px;
+        font-weight: 400;
+        color: #6e6d6d;
+    }
+    .kasblar .wrapper .container .content h2{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .kasblar .wrapper .container .content span{
+        font-size: 15px;
+    }
+    .kasblar .wrapper .container .content img{
+        width: 130px;
+        height: 120px;
+        position: absolute;
+        right: 40px;
+        bottom: 50px;
+        border-radius: 20px;
+    }
+    /* Kurslar section */
+    .kurslar .kurslar-wrap{
+        width: 1200px;
+    }
+    .kurslar-wrap .title h1{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .kurslar-wrap .title .menu span{
+        font-size: 16px;
+    }
+    .kurslar-wrap .container{
+        width: 992px;
+        margin-top: 40px;
+        gap: 20px;
+    }
+    .kurslar-wrap .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 60px;
+    }
+    .kurslar-wrap .container .content{
+        width: 290px;
+        height: 350px;
+        border: 1px solid #E1E5E8;
+        border-radius: 15px;
+        overflow: hidden;
+        transition: all .5s ease;
     }
 }
 /* Medium Devices, Descktops */

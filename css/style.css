@@ -424,13 +424,9 @@ body{
 .kasblar .wrapper .container{
     width: 100%;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     margin-top: 35px;
-}
-.kasblar .wrapper .container .content-wrap{
-    width: 100%;
-    display: flex;
-    gap: 25px;
 }
 .kasblar .wrapper .container a{
     text-decoration: none;
@@ -471,4 +467,108 @@ body{
     right: 40px;
     bottom: 50px;
     border-radius: 20px;
+}
+/* Kurslar section */
+.kurslar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.kurslar .kurslar-wrap{
+    width: 1320px;
+    display: grid;
+    justify-content: center;
+}
+.kurslar-wrap .title{
+    margin: 0 auto;
+}
+.kurslar-wrap .title h1{
+    font-size: 38px;
+    font-weight: 600;
+    color: #17222B;
+    text-align: center;
+}
+.kurslar-wrap .title .menu{
+    display: flex;
+    gap: 15px;
+    margin-top: 40px;
+}
+.kurslar-wrap .title .menu .btn{
+    border: 0;
+    background-color: #fff;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.kurslar-wrap .title .menu span{
+    font-size: 16px;
+    color: #616970;
+    transition: all .25s ease;
+}
+.kurslar-wrap .title .menu .btn:hover span{
+    color: #3F9CFB;
+}
+.kurslar-wrap .container{
+    width: 100%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+.kurslar-wrap .container a{
+    text-decoration: none;
+}
+.kurslar-wrap .container .content{
+    width: 270px;
+    height: 350px;
+    border: 1px solid #E1E5E8;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.kurslar-wrap .container .content:hover{
+    box-shadow: 0 10px 10px 0 #e7e6e6;
+}
+.kurslar-wrap .container .content .img{
+    width: 100%;
+    height: 160px;
+}
+.kurslar-wrap .container .content img{
+    width: 100%;
+    height: 100%;
+}
+.kurslar-wrap .container .content .text{
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+}
+.kurslar-wrap .container .content .text .user{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.kurslar-wrap .container .content .text .user i{
+    color: #7F868B;
+    font-size: 15px;
+}
+.kurslar-wrap .container .content .text .user span{
+    font-size: 17px;
+    font-weight: 400;
+    color: #7F868B;
+}
+.kurslar-wrap .container .content .text h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #17222B;
+}
+.kurslar-wrap .container .content .text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7F868B;
+}
+.kurslar-wrap .container .content .text h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: #3F9CFB;
+    margin-top: 8px;
 }
