@@ -422,6 +422,7 @@ body{
 /* Kurslar section */
 .kurslar{
     width: 100%;
+    padding-top: 75px;
     display: flex;
     justify-content: center;
     margin-top: 70px;
