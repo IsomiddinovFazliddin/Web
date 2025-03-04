@@ -14,7 +14,7 @@ body{
 .navbar{
     width: 100%;
     padding: 20px 10px;
-    background-color: rgba(255,255, 255, 0.97);
+    background-color: rgba(255,255, 255, 0.99);
     display: flex;
     justify-content: center;
     position: fixed;
@@ -56,55 +56,6 @@ body{
 }
 .navbar .navbar-nav .menu a:hover{
     color: #2b2c2c;
-}
-.navbar .navbar-nav .language{
-    width: 90px;
-    height: 45px;
-    position: relative;
-    transition: all .5s ease;
-}
-.navbar .navbar-nav .language .uzb{
-    width: 82px;
-    height: 40px;
-    display: flex;
-    gap: 3px;
-    border: 2px solid #3F9CFB;
-    margin: 0 auto;
-    padding: 6px 6px;  
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all .4s ease;
-    align-items: center;
-    margin-top: 5px;
-}
-.navbar .navbar-nav .uzb:hover{
-    background-color: #3F9CFB;
-}
-.navbar .navbar-nav .uzb:hover span{
-    color: #fff;
-}
-.navbar .navbar-nav .language img{
-    width: 28px;
-    height: 18px;
-}
-.navbar .navbar-nav .language span{
-    font-size: 18px;
-    color: #2e92f7;
-}
-.navbar .navbar-nav .submenu{
-    width: 90px;
-    height: 100px;
-    display: grid;
-    gap: 3px;
-    position: absolute;
-    bottom: -100px;
-    background-color: #fff;
-    padding-top: 3px;
-    display: none;
-    border-radius: 10px;
-}
-.navbar .navbar-nav .language:hover .submenu{
-    display: block;
 }
 .navbar .navbar-nav .kirish{
     display: flex;
@@ -571,4 +522,91 @@ body{
     font-weight: 600;
     color: #3F9CFB;
     margin-top: 8px;
+}
+/* footer */
+.footer-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #17222B;
+    margin-top: 70px;
+}
+.footer-section .wrapper{
+    width: 1100px;
+    padding: 120px 0;
+    display: grid;
+    border-radius: 15px;
+}
+.footer-section .wrapper .container1{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px; 
+    background-color: #263039;
+    border-radius: 15px;
+    position: relative;
+}
+.footer-section .wrapper .container1 .text h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #fff;
+}
+.footer-section .wrapper .container1 .text p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #868686;
+    margin-top: 20px;
+}
+.footer-section .wrapper .container1 .content{
+    width: 370px;
+    height: 440px;
+    display: grid;
+    background-color: #1F2932;
+    position: absolute;
+    right: 60px;
+    top: -55px;
+    border-radius: 15px;
+    border: 1px solid #263039;
+}
+.footer-section .wrapper .container1 .content form{
+    padding: 15px 30px;
+    display: grid;
+}
+.footer-section .wrapper .container1 .content form input{
+    height: 50px;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #c4c8cc;
+    background-color: #17222B;
+    border: 1px solid #434D54;
+    margin-top: 10px;
+}
+.footer-section .wrapper .container1 .content form span{
+    font-size: 18px;
+    font-weight: 500;
+    color: #D7DBDE;
+    margin-top: 15px;
+}
+.footer-section .wrapper .container1 .content form p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #858282;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.footer-section .wrapper .container1 .content form .submit{
+    background-color: #3F9CFB;
+    font-size: 18px;
+    color: #fff;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.footer-section .wrapper .container1 .content form .submit:hover{
+    background-color: #2F85DA;
 }

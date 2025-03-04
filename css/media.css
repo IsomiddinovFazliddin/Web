@@ -23,29 +23,6 @@
     .navbar .navbar-nav .menu a{
         font-size: 16px;
     }
-    .navbar .navbar-nav .language{
-        width: 85px;
-        height: 40px;
-    }
-    .navbar .navbar-nav .language .uzb{
-        width: 70px;
-        height: 36px;
-        display: flex;
-        justify-content: center;
-        gap: 3px; 
-    }
-    .navbar .navbar-nav .language img{
-        width: 25px;
-        height: 15px;
-    }
-    .navbar .navbar-nav .language span{
-        font-size: 16px;
-    }
-    .navbar .navbar-nav .submenu{
-        width: 85px;
-        height: 90px;
-        bottom: -92px;
-    }
     .navbar .navbar-nav .kirish .btn{
         padding: 10px 19px;
         border-radius: 10px;
@@ -255,6 +232,41 @@
         border-radius: 15px;
         overflow: hidden;
         transition: all .5s ease;
+    }
+    /* footer section */
+    .footer-section .wrapper{
+        width: 992px;
+        padding: 110px 0;
+    }
+    .footer-section .wrapper .container1{
+        width: 100%;
+        height: 280px;
+        display: flex;
+    }
+    .footer-section .wrapper .container1 .text h1{
+        font-size: 36px;
+        line-height: 38px;
+    }
+    .footer-section .wrapper .container1 .text p{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    .footer-section .wrapper .container1 .content{
+        width: 330px;
+        height: 400px;
+    }
+    .footer-section .wrapper .container1 .content form input{
+        height: 40px;
+        border-radius: 6px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .footer-section .wrapper .container1 .content form p{
+        font-size: 13px;
+    }
+    .footer-section .wrapper .container1 .content form .submit{
+        font-size: 16px;
     }
 }
 /* Medium Devices, Descktops */
